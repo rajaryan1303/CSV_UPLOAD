@@ -10,7 +10,7 @@ Clone the repository:
 
 bash
 Copy code
-$ git clone https://github.com/agentgrey/CSV_Upload.git
+$ git clone https://rajaryan1303.github.io/CSV_UPLOAD/
 Install the required dependencies:
 
 bash
@@ -48,6 +48,7 @@ CSV_Upload/
 ├── .gitignore
 ├── package.json
 └── README.md
+
 Screenshots
 [screen](img/img1.png)
 ![screen](img/img2.png)
