@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body, .body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background color for the body */
+body {
+    background-color: #1f2833;
+    color: #f8f8f8;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Navigation bar */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #2a363b; /* Dark gray */
+    box-shadow: 0px 15px 15px 0px #052330;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Back icon */
+.back-icon {
+    font-size: 36px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #feceab; /* Light beige */
+}
+
+/* Title */
+.title {
+    font-size: 45px;
+    font-family: 'Elianto', sans-serif;
+    font-weight: 700;
+    color: #99b898; /* Light green */
+    padding: 10px;
+}
+
+/* Subtitle */
+.sub-title {
+    font-size: 18px;
+    font-family: 'Monospace', 'Rockwell', sans-serif;
+    padding: 10px;
+    padding-top: 22px;
+    color: #feceab; /* Light beige */
+}
+
+/* File name */
+.file-name {
+    margin-left: 18%;
+    padding: 17px;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Input container for upload button */
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    background-color: rgba(42, 54, 59, 0.8); /* Dark gray with transparency */
+    border: 2px dashed #feceab; /* Light beige */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.upload-btn {
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #ff847c; /* Coral red */
+    color: #f8f8f8; /* White */
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* List container with centered text */
+.list-center-text {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: rgba(42, 54, 59, 0.8); /* Dark gray with transparency */
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.list-center-text h2 {
+    padding: 5px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #ff847c; /* Coral red */
+}
+
+/* Styling for "No file" text */
+.no-file {
+    font-size: 24px;
+    color: #e84a5f; /* Carmine red */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* File details table */
+.file-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #99b898; /* Light green */
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #99b898; /* Light green */
+}
+
+/* Links for viewing and deleting files */
+.view-link, .delete-link {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.view-link {
+    color: #66fcf1; /* Light cyan */
+}
+
+.delete-link {
+    color: #e84a5f; /* Carmine red */
+}
+
+/* Styles on hover for links and upload button */
+.view-link:hover, .delete-link:hover, .upload-btn:hover {
+    transform: translateY(-1.5px);
+}
